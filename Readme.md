@@ -3,7 +3,7 @@
 
 ## Kurulum;
 
-- Eğer chromedriverde hata veriyorsa [Bu siteye](https://chromedriver.chromium.org/) git en yeni versiyonunu indir sonra bu dosyadak chromedriver.exe dosyasıyla değiştir
+- Eğer chromedriverde hata veriyorsa [Bu siteye](https://chromedriver.chromium.org/) git en yeni versiyonunu indir sonra bu dosyadaki chromedriver.exe dosyasıyla değiştir
 - python
 - selenium(pip install selenium)
 - os(pip install os)
