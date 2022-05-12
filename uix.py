@@ -14,7 +14,8 @@ print('Lütfen ders çizelgenizin oluşturulması için gelecek sorulara tek tek
 time.sleep(2)
 for kw in options.keys():
     choice = input(kw + ' :\t')
-    options[kw] = choice 
+    if choice != '':
+        options[kw] = choice 
 
 print(options)
 if input('Veriler alındı, onaylıyor musunuz?').lower() == 'evet':
